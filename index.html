@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initil scale=1.0">
+        <title>Gaming Accessories Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+ <!-- Nav Bar -->  
+
+<div class="container">
+    <div class="navbar">
+        <img src="images/logo.png" class="logo">
+        <nav>
+            <ul id="menuList">
+                <li><a href="game-controllers.html">Playstation4</a></li>
+                <li><a href="Techspecs.html">Tech Specs</a></li>
+                <li><a href="others.html">Others</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+</div>
+<div>
+    <div class="row">
+        <div class="col-1">
+            <h2 class="slide-left">PS5 V2<br>Dualshock 4</h2>
+            <h3 class="slide-left">Wireless Controller for Playstation 5</h3>
+            <P class="slide-left">(Compatible/Generic)</P>
+            <h4 class="slide-left">₹5,399</h4>
+            <button type="button" class="slide-left">Buy Now <img src="images/arrow.png"></button>
+        </div>
+        <div class="col-2">
+            <img src="images/controller.png" class="controller">
+            <div class="color-box"></div>
+
+        </div>
+    </div>
+
+ <!-- Footer --> 
+
+    <div class="social-links">
+        <img src="images/fb.png">
+        <img src="images/tw.png">
+        <img src="images/ig.png">
+    </div>
+</div>
+
+
+<script>
+    var menuList= document.getElementById("menuList");
+
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu(){
+        if( menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight == "130px"; 
+        }
+        else{
+            menuList.style.maxHeight == "0px" ;
+
+        }
+    }
+
+
+
+</script>
+        
+
+    </body>
+</html>
